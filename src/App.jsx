@@ -4,15 +4,26 @@ import { useState } from 'react';
 
 function App() {
   const [counter, setCounter] = useState(100)
+  const [persons, setPersons] = useState([
+    {name:' Dana', title:' Web Developer', location:' Helsinki'},
+    {name:' Marian', title:' Engineer', location:' Roman'}, 
+    {name:' Teodor', title:' Web Developer', location:' Espoo'}
+  ]);
 
   return(
     <>
     <p>Counter: {counter}</p>
-      <Box name=' Dana' title=' CTO' location=' Helsinki'/>
-      <Box name=' Karin' title=' Designer' location=' Tartu'/>
-      <Box name=' Kati' title=' Developer' location=' Far away'/>
+    {persons.map((person) => (
+      <>
+      <Box
+      name={person.name}
+      title={person.title} 
+      location={person.location}/>
+      
+      </>
+      ))}
     </>
-  )
+  );
 }
 
 export default App;
