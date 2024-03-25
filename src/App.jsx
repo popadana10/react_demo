@@ -10,17 +10,22 @@ function App() {
     {name:' Teodor', title:' Web Developer', location:' Espoo'}
   ]);
 
+  const clickHandler = () => {
+    console.log('woof, woof');
+  }
+
   return(
     <>
     <p>Counter: {counter}</p>
+    <button onClick={clickHandler}> Do not click here </button>
     {persons.map((person) => (
-      <>
+
       <Box
+      key={person.id}
       name={person.name}
       title={person.title} 
-      location={person.location}/>
-      
-      </>
+      location={person.location}
+      />
       ))}
     </>
   );
