@@ -11,8 +11,9 @@ function App() {
   ]);
 
   const clickHandler = () => {
-    console.log('woof, woof');
-  }
+    setCounter(counter +1);
+  };
+  
 
   return(
     <>
