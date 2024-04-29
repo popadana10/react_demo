@@ -1,10 +1,10 @@
 import './App.css';
 import { useState } from 'react';
-import Header from './Header.jsx';
-import Footer from './Footer.jsx';
-import Form from './Form.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import Form from './components/Form.jsx';
 import View from './View.jsx';
-import Dashboard from './Dashboard.jsx';
+import Dashboard from './pages/Dashboard.jsx';
  
 function App() {
   /*   const [counter, setCounter] = useState(1000);
