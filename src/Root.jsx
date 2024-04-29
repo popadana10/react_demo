@@ -6,9 +6,9 @@ const Root = () => {
     return (
         <>
         <Header/>
-            <main>
+        <main>
         <Outlet/>
-                <h2>Content will be changing here</h2></main>
+        </main>
         <Footer/>
         </>
     )
