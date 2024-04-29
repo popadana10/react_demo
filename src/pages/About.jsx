@@ -1,8 +1,8 @@
 const About = () => {
     return (
         <>
-        About will be here
+        <h2>About will be here</h2>
         </>
     );
 }
-export default Home;
+export default About;
