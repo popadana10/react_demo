@@ -24,18 +24,12 @@ Built with:
 
 <img width="1440" alt="Screenshot 2024-06-02 at 19 26 56" src="https://github.com/popadana10/react_demo/assets/145273531/9c5eabcb-ad96-4e36-92c9-4a1967c135b2">
 
-## Live page: reactdemo-danapopa.netlify.app
+## Setup and usage
 
-## Setup and Usage
+Live page [here](reactdemo-danapopa.netlify.app)
 
-### Prerequisites
+## Get in Touch
 
-- Node.js and npm installed on your local machine.
+You can find me on [LinkedIn](https://www.linkedin.com/in/dana-mihaela-popa/).
 
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/margittennosaar/react-demo.git
-   cd react-demo
-
+Thanks for stopping by, and happy exploring! 🚀
