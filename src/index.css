@@ -103,3 +103,57 @@ h1 {
 .box p:last-child{
 font-style: italic;
 }
+
+.post-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.post {
+  background: white;
+  border-radius: 5px;
+  color: #333;
+  padding: 1rem;
+  transition: transform 0.2s;
+}
+
+.post:hover {
+  transform: scale(1.02);
+}
+
+.post h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+}
+
+.post h4 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.post p {
+  margin-bottom: 1rem;
+}
+
+.post strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.post button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.post button:hover {
+  background-color: orange;
+}
