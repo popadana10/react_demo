@@ -26,7 +26,7 @@ Built with:
 
 ## Setup and usage
 
-Live page [here](reactdemo-danapopa.netlify.app)
+Live page [here](https://reactdemo-danapopa.netlify.app/)
 
 ## Get in Touch
 
